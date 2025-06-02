@@ -1,0 +1,56 @@
+
+body {
+  background-color: #0d0d0d;
+  color: #e6f7ff;
+  font-family: 'Orbitron', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.main-header {
+  text-align: center;
+  padding: 2rem 1rem;
+  background: linear-gradient(90deg, #0f0f0f, #1a1a1a);
+  border-bottom: 2px solid #00ffff;
+}
+
+.logo {
+  max-width: 160px;
+  margin-bottom: 1rem;
+}
+
+.hero-image {
+  width: 100%;
+  display: block;
+  border-bottom: 2px solid #00ffff;
+}
+
+.content-section {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+h1, h2 {
+  color: #00ffff;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.social-links img {
+  width: 40px;
+  filter: brightness(0) invert(1);
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  background-color: #121212;
+  font-size: 0.8rem;
+  border-top: 1px solid #00ffff;
+}

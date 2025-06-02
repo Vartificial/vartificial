@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>VARtificial - El VAR que el fútbol no pidió</title>
+  <link id="theme-style" rel="stylesheet" href="style-dark.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+  <script>
+    function toggleTheme() {
+      const style = document.getElementById('theme-style');
+      if (style.getAttribute('href') === 'style-dark.css') {
+        style.setAttribute('href', 'style-light.css');
+      } else {
+        style.setAttribute('href', 'style-dark.css');
+      }
+    }
+  </script>
+</head>
+<body>
+  <header class="main-header">
+    <img src="img/logo.png" alt="VARtificial logo" class="logo"/>
+    <h1>$VAR - VARtificial</h1>
+    <h2>El VAR descentralizado que fiscaliza el fútbol mundial</h2>
+    <button onclick="toggleTheme()">Cambiar estilo</button>
+  </header>
+
+  <img src="img/banner.jpg" alt="Banner" class="hero-image"/>
+
+  <section class="content-section">
+    <h2>¿Qué es VARtificial?</h2>
+    <p>$VAR es la memecoin que parodia al sistema de videoarbitraje mundial. Basada en una IA que fiscaliza jugadas polémicas con humor, sátira y blockchain. Es el árbitro que nunca se vende.</p>
+  </section>
+
+  <section class="content-section">
+    <h2>Roadmap</h2>
+    <ul>
+      <li>✅ Q2 2025: Lanzamiento del sitio y branding</li>
+      <li>🔄 Q3 2025: Token en Ethereum / Base</li>
+      <li>🚀 Q4 2025: IA de fiscalización en X y TikTok</li>
+      <li>🌍 2026: Comunidad global + integración de staking</li>
+    </ul>
+  </section>
+
+  <section class="social-links">
+    <a href="https://www.tiktok.com/@vartificial" target="_blank">
+      <img src="img/tiktok.png" alt="TikTok" />
+    </a>
+    <a href="https://www.instagram.com/vartificial" target="_blank">
+      <img src="img/instagram.png" alt="Instagram" />
+    </a>
+  </section>
+
+  <footer>
+    &copy; 2025 VARtificial. Todos los derechos reservados. Este sitio es un experimento satírico y no constituye asesoramiento financiero.
+  </footer>
+</body>
+</html>
