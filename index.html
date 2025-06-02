@@ -4,26 +4,18 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>VARtificial - El VAR que el fútbol no pidió</title>
-  <link id="theme-style" rel="stylesheet" href="style-dark.css" />
+  <link rel="stylesheet" href="style-dark.css" />
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
-  <script>
-    function toggleTheme() {
-      const style = document.getElementById('theme-style');
-      if (style.getAttribute('href') === 'style-dark.css') {
-        style.setAttribute('href', 'style-light.css');
-      } else {
-        style.setAttribute('href', 'style-dark.css');
-      }
-    }
-  </script>
 </head>
 <body>
   <header class="main-header">
+    <div class="language-switch">
+      <a href="index-en.html">🇬🇧 English</a>
+    </div>
     <img src="Banner.png" alt="Banner" class="hero-image" />
-    <img src="Logo.png" alt="VARtificial Logo" class="logo" style="max-width: 100px;" />
+    <img src="Logo.png" alt="VARtificial Logo" class="logo" />
     <h1>$VAR - VARtificial</h1>
     <h2>El VAR descentralizado que fiscaliza el fútbol mundial</h2>
-    <button onclick="toggleTheme()">Cambiar estilo</button>
   </header>
 
   <section class="content-section">
