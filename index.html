@@ -2,20 +2,101 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>VARtificial - El VAR que el fútbol no pidió</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VARtificial - Decide. Comenta. Cobra.</title>
   <link rel="stylesheet" href="style-dark.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+    .main-header {
+      position: relative;
+      text-align: center;
+      padding: 0;
+    }
+    .hero-image {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    .logo-overlay {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      max-width: 80px;
+      z-index: 10;
+    }
+    .language-switch {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      font-size: 0.9rem;
+      z-index: 10;
+    }
+    .language-switch a {
+      color: #00ffff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    h1, h2 {
+      font-family: 'Orbitron', sans-serif;
+    }
+    .content-section {
+      max-width: 900px;
+      margin: 3rem auto;
+      padding: 0 1.5rem;
+    }
+    .content-section h2 {
+      color: #00ffff;
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+    }
+    .content-section p, .content-section li {
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+    .roadmap ul {
+      list-style: none;
+      padding: 0;
+    }
+    .roadmap li::before {
+      content: "\2714\0020";
+      color: #00ffff;
+    }
+    .social-section {
+      text-align: center;
+      margin-top: 4rem;
+    }
+    .social-section h2 {
+      color: #00ffff;
+    }
+    .social-links {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      margin-top: 1rem;
+    }
+    .social-links img {
+      width: 40px;
+      filter: brightness(0) invert(1);
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background-color: #121212;
+      font-size: 0.8rem;
+      border-top: 1px solid #00ffff;
+    }
+  </style>
 </head>
 <body>
   <header class="main-header">
+    <img src="Logo.png" alt="Logo" class="logo-overlay" />
     <div class="language-switch">
       <a href="index-en.html">🇬🇧 English</a>
     </div>
     <img src="Banner.png" alt="Banner" class="hero-image" />
-    <img src="Logo.png" alt="VARtificial Logo" class="logo" />
-    <h1>$VAR - VARtificial</h1>
-    <h2>El VAR descentralizado que fiscaliza el fútbol mundial</h2>
   </header>
 
   <section class="content-section">
@@ -23,23 +104,26 @@
     <p>$VAR es la memecoin que parodia al sistema de videoarbitraje mundial. Basada en una IA que fiscaliza jugadas polémicas con humor, sátira y blockchain. Es el árbitro que nunca se vende.</p>
   </section>
 
-  <section class="content-section">
+  <section class="content-section roadmap">
     <h2>Roadmap</h2>
     <ul>
-      <li>✅ Q2 2025: Lanzamiento del sitio y branding</li>
-      <li>🔄 Q3 2025: Token en Solana con funcionalidad memecoin</li>
-      <li>🚀 Q4 2025: IA de fiscalización viral en X y TikTok</li>
-      <li>🌍 2026: Comunidad global + staking y recompensas NFT</li>
+      <li>Q2 2025: Lanzamiento del sitio y branding</li>
+      <li>Q3 2025: Token en Solana con funcionalidad memecoin</li>
+      <li>Q4 2025: IA de fiscalización viral en X y TikTok</li>
+      <li>2026: Comunidad global + staking y recompensas NFT</li>
     </ul>
   </section>
 
-  <section class="social-links">
-    <a href="https://www.tiktok.com/@vartificial" target="_blank">
-      <img src="Tiktok.png" alt="TikTok" />
-    </a>
-    <a href="https://www.instagram.com/vartificial" target="_blank">
-      <img src="IG.png" alt="Instagram" />
-    </a>
+  <section class="social-section">
+    <h2>Síguenos</h2>
+    <div class="social-links">
+      <a href="https://www.tiktok.com/@vartificial" target="_blank">
+        <img src="Tiktok.png" alt="TikTok" />
+      </a>
+      <a href="https://www.instagram.com/vartificial" target="_blank">
+        <img src="IG.png" alt="Instagram" />
+      </a>
+    </div>
   </section>
 
   <footer>
